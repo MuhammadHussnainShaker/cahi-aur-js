@@ -14,11 +14,11 @@ let age = 18
 let isLoggedIn = false
 let state;
 
-// number => 2 to power 53
-// bigint
+// number => range: -2^53 to 2 to power 53
+// bigint => write n after number to convert it into bigint
 // string => ""
 // boolean => true/false
-// null => standalone value
+// null => standalone value // like we prefer to recieve null rather than 0 from Temperature API failure
 // undefined => 
 // symbol => unique
 
